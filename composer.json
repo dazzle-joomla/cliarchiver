@@ -1,0 +1,27 @@
+{
+  "name": "akeeba/cli_archiver",
+  "type": "project",
+  "description": "CLI application to create JPA and JPS archives compatible with Akeeba tools",
+  "config": {
+    "vendor-dir": "app/vendor"
+  },
+  "homepage": "https://github.com/akeeba/cli_archiver",
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Nicholas K. Dionysopoulos",
+      "email": "nicholas+dontspammeplease@akeeba.com",
+      "homepage": "https://www.akeeba.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^7.0",
+    "mnapoli/silly": "^1.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Akeeba\\CLIArchiver\\": "CLIArchiver"
+    }
+  }
+}
