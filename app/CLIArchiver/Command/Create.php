@@ -134,7 +134,7 @@ class Create
 			$path = getcwd() . '/' . $path;
 		}
 
-		return realpath($path);
+		return realpath(dirname($path)) . '/' . basename($path);
 	}
 
 	private function scanPaths(array $includes, array $excludes, callable $callback): void
