@@ -383,7 +383,7 @@ abstract class BaseArchiver extends BaseFileManagement
 	 *
 	 * @return  void
 	 */
-	protected function getZData(string &$sourceNameOrData, bool &$isVirtual, int &$compressionMethod, string &$zdata, int &$unc_len, int &$c_len): void
+	protected function getZData(string &$sourceNameOrData, bool &$isVirtual, int &$compressionMethod, ?string &$zdata, ?int &$unc_len, ?int &$c_len): void
 	{
 		// Get uncompressed data
 		$udata =& $sourceNameOrData;

@@ -311,7 +311,7 @@ class Jpa extends BaseArchiver
 	 *
 	 * @return  void
 	 */
-	protected function writeFileHeader(string &$sourceNameOrData, string &$targetName, bool &$isVirtual, bool &$isSymlink, bool &$isDir, int &$compressionMethod, string &$zdata, int &$unc_len): void
+	protected function writeFileHeader(string &$sourceNameOrData, string &$targetName, bool &$isVirtual, bool &$isSymlink, bool &$isDir, int &$compressionMethod, ?string &$zdata, ?int &$unc_len): void
 	{
 		static $memLimit = null;
 
