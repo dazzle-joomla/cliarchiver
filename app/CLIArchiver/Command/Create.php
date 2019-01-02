@@ -1,9 +1,8 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: sledg
- * Date: 06/02/2018
- * Time: 8:24 PM
+ * @package   CLIArchiver
+ * @copyright Copyright (c) 2017-2019 Akeeba Ltd / Nicholas K. Dionysopoulos
+ * @license   GNU General Public License version 3 or later; see LICENSE.txt
  */
 
 namespace Akeeba\CLIArchiver\Command;
